@@ -1,5 +1,5 @@
 node{
-      def dockerImageName= 'intdoc89/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
+      def dockerImageName= 'intdoc89/javadedockerapp_javadockerapp'
       stage('SCM Checkout'){
          git 'https://github.com/zubrakrm/Jenkins-Groovy.git'
       }
